@@ -1,12 +1,6 @@
 <template>
   <div>
-    <div align="left">
-      <b-button text-decoration-none variant="link">Accueil</b-button>
-    </div>
-    <div align="right">
-      <b-button>Produits</b-button>
-      <b-button>Panier</b-button>
-    </div>
+    <NavBar />
     <div>
         <h1>{{ msg }}</h1>
     </div>

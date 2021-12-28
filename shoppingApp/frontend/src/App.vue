@@ -1,6 +1,7 @@
 <template>
   <div class="outer">
     <div id="app">
+      <nav-bar />
       <!-- <img src="./assets/logo.png"> -->
       <router-view/>
     </div>
@@ -8,8 +9,12 @@
 </template>
 
 <script>
+import NavBar from '@/components/NavBar/NavBar.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    NavBar
+  }
 }
 </script>
 

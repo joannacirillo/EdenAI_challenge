@@ -1,10 +1,8 @@
-//import ProductWidget from './ProductWidget.vue'
-import NavBar from "@/components/NavBar/NavBar.vue"
-
+import ProductWidget from './ProductWidget.vue'
 
 export default {
     name : 'Products',
     components :{
-        NavBar
+        ProductWidget
       },
 }

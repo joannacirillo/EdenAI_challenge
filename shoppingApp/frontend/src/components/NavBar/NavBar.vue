@@ -1,5 +1,5 @@
 <template>
-  <b-row>
+  <b-row class="box">
     <b-col align="left">
       <b-link to="/">Accueil</b-link>
     </b-col>
@@ -11,9 +11,12 @@
 </template>
 <script>
 export default {
-  props: {
-  },
   name: 'NavBar'
 }
 </script>
-<style></style>
+<style>
+.box {
+  height: 10%;
+  color: darkslateblue;
+}
+</style>

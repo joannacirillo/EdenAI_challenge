@@ -1,6 +1,7 @@
 <template>
   <div>
     <b-row>
+      <div>{{ info }}</div>
       <product-widget prod-name= "Carotte" price= "2,10" />
       <product-widget prod-name= "Tomate" price= "3,10" />
     </b-row>
